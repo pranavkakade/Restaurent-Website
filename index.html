@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.cs">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <title>Vanakkam</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+    <div class="container">
+        <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <a class="navbar-brand mr-auto" href=""><img src="img/logo.png" height="30" width="41"></a> 
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href=""><span class="fa fa-home fa-lg"></span> Home</a></li>
+         <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-list fa-lg"></span> Menu</a></li>  
+        <li class="nav-item "><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contactus.html"><span class="fa fa-address-book fa-lg"></span> Contact</a></li>  
+    </ul>
+    <span class="navbar-text">
+        <a id="log">
+            <script type="
+            "> 
+              
+                $('#myModal').modal('toggle')
+            </script>
+            <span class="fa fa-sign-in"></span>
+        LOGIN</a>
+    </span>   
+    </div>
+
+    </div>
+</nav>
+<div id="loginml" class="modal fade" role="dialog">
+    <div class="modal-dialog  modal-lg" role="content">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h4 class="modal-title" > LOGIN</h4>
+                <button type="button" class="close" data-dismiss="modal" id="closed">
+                    &times;
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-sm-4">
+                      <label class="label col-form-label sr-only ml-1" for="email">
+                          EMAIL address
+                      </label>
+                      
+                        <input type="email" class="form-control form-control-sm mr-1" name="email" id="email" placeholder="Enter Email">
+                    </div>
+                      
+                      <div class="form-group col-sm-4">
+                           <label class="label col-form-label sr-only ml-1" for="psd">
+                          EMAIL address
+                      </label>
+                      
+                        <input type="password" class="form-control form-control-sm mr-1" name="password" id="psd" placeholder="Enter password">
+                      </div>                     
+                  <div class="col-sm-auto">
+                      
+                  
+                  <div class="form-check ">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label"><strong>Remember Me</strong></label>
+                  </div>
+                  </div>
+
+                  </div>
+                  <div class="form-row">
+                  
+                      <button class="btn btn-secondary btn-sm ml-auto"  type="button">
+                            Cancel
+                        </button>
+
+                        <button class="btn btn-primary btn-sm mr-2 ml-2" type="submit">
+                            Login
+                        </button>
+                      
+                    
+
+                  </div>  
+                 
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="modal fade" id="moform" role="dialog">
+    <div class="modal-dialog modal-lg mod" role="content">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Reserve a Table</h4>
+            <button class="close" data-dismiss="modal" id="closed">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form >
+                  <div class="form-group row " >
+                    <label for="guests" class="label col-form-label col-12 col-sm-2 offset-sm-1"><b> Number Of Guests </b> </label>
+                         
+    <div class="col-12 col-sm-9 mt-2 ">
+ 
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio1" checked>
+      <label for="radio1" class="form-check-label"><b> 1</b> </label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio2">
+      <label for="radio2" class="form-check-label"> <b>2</b> </label>
+    </div>
+     <div class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio3">
+      <label for="radio3" class="form-check-label"> <b>3</b> </label>
+    </div>
+       <div  class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio4">
+      <label for="radio4" class="form-check-label"> <b>4</b>  </label>
+    </div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio5">
+      <label for="radio5" class="form-check-label"><b>5</b> </label>
+  </div>
+        <div class="form-check form-check-inline">
+      <input class="form-check-input" name="opt1" type="radio" id="radio6">
+      <label for="radio6" class="form-check-label"> <b> 6</b></label>
+  
+    </div>
+            </div>  
+
+                           
+                     
+                  </div>
+                  <div class="form-group row ">
+                     <label for="smoke" class="col-form-label col-12 col-sm-2 offset-sm-1" >
+                       <strong> Section</strong>  
+                      </label>
+                   
+                       
+                      <div class="col-12 col-sm-9">
+                         <div class=" btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-success btn-sm active ">
+                            <input type="radio" name="option1" id="option1" autocomplete="off" checked>NON-SMOKING
+                        </label>
+                        <label class="btn btn-danger btn-sm ">
+                            <input type="radio" name="option1" id="option2" autocomplete="off" >SMOKING
+                        </label>
+                    </div>
+                      
+                      </div>
+
+                  </div>
+    <div class="form-group row">
+      <label for="dat" class="label col-form-label col-12 col-sm-2 offset-sm-1"><b>Date And Time</b></label>  
+    
+        <div class="col-12 col-sm-4">
+        <input type="date" name="date" id="dat" placeholder="Date" class="form-control" >
+
+    </div>
+
+<div class=" col-12 col-sm-4 ">
+        <input type="Time" name="time" id="time" placeholder="Time" class="form-control" >
+
+ 
+    </div>
+
+</div>
+    <div class="form-row">
+        <div class="col-3 col-sm-4 offset-sm-3">
+             <button type="button" class="btn btn-secondary " >Cancel</button> 
+        <button type="submit" value="Reserve" class="btn btn-primary">Reserve</button>    
+        </div>
+       
+    </div>
+
+                </form>
+              </div>
+              </div>
+              </div>
+              </div>
+
+
+  
+       
+        
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header ">
+                <div class="col-12 col-sm-6 ">
+                    
+                    <h1><b><i>Vanakkam</i></b></h1> 
+                   <p><em>“Mere Idli-Sambar Ayenge !”</em></p>
+                </div>
+                <div class="col-12 col-sm-2 align-self-center">
+                   
+                        
+                            <img src="img/logo.png" class="img-responsive img-fluid">
+                        </div>
+                        <div class="col-12 col-sm-3 offset-sm-1 align-self-center">
+                           <a  type="button" style="color: black;" class="btn btn-warning btn-sm btn-block" id="mybtn" > <strong>Reserve Tables</strong> </a>
+                        </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+<div class="row row-content ">
+    <div class="col">
+        <div class="carousel slide" id="mycarousel"data-ride="carousel">
+            <div class="carousel-inner " role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/uthappizza.png" class="d-block img-fluid img-responsive">
+                <div class="carousel-caption d-none d-md-block carousl-text">
+                    <h3>Uthappizza  <span class=" badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span> </h3>
+                <p class="d-none d-sm-block">“Optimistic design isn't a particular look, it is a movement of residential anarchy. It goes much deeper than using bright colors - it's an attitude displaying self-empowerment, nurturing a more upbeat approach to living.</p>
+                </div>
+                </div>
+                 <div class="carousel-item ">
+                     <img src="img/Buffet.png" class=" d-block img-fluid img-responsive  ">
+                <div class="carousel-caption carousl-text d-none d-md-block">
+                    <h2 > Weekend Grand Buffet <span class="badge badge-danger ">NEW</span> </h2>
+
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                     <img src="data:image/jpeg;base64,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" class="img-responsive img-fluid d-block">
+                    <div class="carousel-caption carousel-chef d-none d-md-block">
+                <h2 >Alberto Somayya</h2>
+                <h4>Executive Chef</h4>
+                <p class="d-none   d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>   
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li  data-target="#mycarousel" data-slide-to="0" class="active"></li>
+             <li  data-target="#mycarousel" data-slide-to="1"></li>
+              <li  data-target="#mycarousel" data-slide-to="2" ></li>
+            </ol>
+            <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+           
+                <button class="btn btn-danger btn-sm " id="carouselB">
+                    <span class="fa fa-pause" id="carousel-button-icon"></span>
+                </button>
+              
+        </div>
+    </div>
+</div>
+
+        <div class="row  row-content align-item-center">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-last ">
+                <h3 class="">Our Lipsmacking Culinary Creations</h3>
+            </div>
+            <div class="col-12 col-sm col-md ">
+                 <div class="media">
+               <img class="d-flex mr-3 img-thumbnail img-fluid img-responsive align-self-center" src="img/uthappizza.png ">
+               <div class="media-body">
+               <h3 class="mt-0">Uthappapizza  <span class=" badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span> </h3>
+                <p class="d-none d-sm-block">“Optimistic design isn't a particular look, it is a movement of residential anarchy. It goes much deeper than using bright colors - it's an attitude displaying self-empowerment, nurturing a more upbeat approach to living.</p>
+               </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="row row-content align-item-center ">
+            <div  class="col-12 col-sm-4 col-md-3 order-sm-first">
+                <h3>This Month's Promotions </h3>
+            </div>
+            <div class="col-12 col-sm col-md">
+                <div class="media">
+                     <img src="img/Buffet.png" class=" d-flex ml-3 order-last img-fluid img-responsive img-thumbnail align-self-center">
+                    <div class="media-body">
+                <h2 class="mt-0"> Weekend Grand Buffet <span class="badge badge-danger d-inline">NEW</span> </h2>
+
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                
+                
+                </div>
+                </div>
+   
+            </div>
+        </div>
+
+        <div class="row row-content align-item-center">
+            <div  class="col-12 col-sm-4 col-md-3 order-sm-last ">
+                <h3>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col-12 col-sm col-md">
+                <div class="media">
+                    <img src="data:image/jpeg;base64,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" class="img-thumbnail  img-responsive img-fluid d-flex align-self-center mr-3">
+                    <div class="media-body">
+                      <h2 class="mt-0">Alberto Somayya</h2>
+                <h4>Executive Chef</h4>
+                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>   
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+      
+                
+          
+           
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer  class= "footers" >
+        <div class="container">
+            <div class="row">
+                <div class="col-5  col-sm-2">
+                
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="ikn-color" href="#">Home</a></li>
+                        <li><a class="ikn-color" href="aboutus.html">About</a></li>
+                        <li><a class="ikn-color" href="#">Menu</a></li>
+                        <li><a class="ikn-color" href="Contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    
+                    <address>
+                     <span class="ikn-color"> Opposite to wadeshwar,Baner Road<br>
+                      Baner,Pune<br>
+                      INDIA<br> </span>
+                                          
+                   </address>
+              </div>
+                     <div class="col-12 col-sm-5 ">
+                            <div class="text-center">
+                        <a class="btn btn-social-icon ikn-color btn-instagram" href="http://instagram.com/"><span class="fa fa-instagram fa-lg"></span></a>
+                        
+                        <a class="btn btn-social-icon  ikn-color btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg"></span></a>  
+
+                        <a class="btn btn-social-icon  ikn-color btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg"></span></a>  
+
+                         <a class="btn btn-social-icon  ikn-color btn-youtube" href="http://youtube.com/"><span class="fa fa-youtube fa-lg"></span> </a>
+
+                        <a class="btn btn-social-icon  ikn-color btn-twitter" href="http://twitter.com/"> <span class="fa fa-twitter fa-lg"></span></a>  
+                       
+                        <a class="btn btn-social-icon ikn-color" href="mailto:SKINTERIORS@gmail.com"><span class="fa fa-envelope-o fa-lg"></span></a>
+                    </div>
+                      
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-md-6 ">
+                        <span class="fa fa-phone">Contact:8329539567</span><br>
+                     <span class="fa fa-envelope">  Email: <a href="mailto:pranavkakade99@gmail.com">pranavkakade99@gmail.com</a></span>
+               
+                </div>
+      </div>
+      
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2010 Vanakkam</p>
+                </div>
+           </div>
+       
+    </div>
+    </footer>
+    
+   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+       <script type="text/javascript" src="js/scripts.js">       
+       </script>
+       
+
+</body>
+
+</html>
+
+
